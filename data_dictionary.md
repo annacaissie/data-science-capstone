@@ -17,4 +17,4 @@ This is calculated from the MBTA Rapid Transit Speed Restrictions by Day dataset
 This refers to the rapid transit line. This can be red (Red Line), blue (Blue Line), orange (Orange Line), or green (Green Line).
 
 ### service_date: Date
-This refers to the date 
+The row this date appears in contains data pertaining to that date.
