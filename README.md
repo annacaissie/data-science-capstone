@@ -1,4 +1,4 @@
-# Off the Rails: Examining Reliability, Ridership, and Sentiment on the MBTA
+# Off the Rails: Examining Reliability and Ridership on the MBTA
 
 ## Brief background
 
@@ -6,17 +6,17 @@ Many Boston-area commuters and residents start and end their days riding with th
 
 ## Question
 
-How have delays and track speed restrictions impacted the reliability, ridership, and customer sentiment of MBTA service in recent years, and does available data show that improvements (or lack thereof) in service quality are reflected in public perception?
+How have delays and track speed restrictions impacted the reliability and ridership of MBTA service in recent years, and does available data show that improvements (or lack thereof) in service quality are reflected in ridership levels?
 
 ## Hypothesis & Predictions
 
 ### Hypothesis
 
-Service disruptions like delays and track speed restrictions significantly reduce reliability scores and negatively impact rider sentiment.
+Service disruptions like delays and track speed restrictions significantly reduce reliability scores and negatively impact ridership.
 
 ### Predictions
 
-We expect to find a measurable correlation between increased delays/speed restrictions and drops in reliability scores, increased negative sentiment, and lower ridership in subsequent weeks/months.
+We expect to find a measurable correlation between increased delays/speed restrictions and drops in reliability scores and lower ridership.
 
 ### Data source
 
