@@ -18,3 +18,6 @@ This refers to the rapid transit line. This can be red (Red Line), blue (Blue Li
 
 ### service_date: Date
 The row this date appears in contains data pertaining to that date.
+
+### num_alerts: Number of Service Alerts Active
+This refers to the number of open service alerts for the specified line and date. This includes delays, service changes, cancellations, and more. This will include alerts that may have been issued on another date but are still active on the specified date.
