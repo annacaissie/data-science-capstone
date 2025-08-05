@@ -29,4 +29,4 @@ This is true when there are alerts present that are caused by special events.
 This refers to the number of alerts open on a given day for a given rapid transit line that result in delays.
 
 ### alert_effect_shuttle: The number of alerts resulting in shuttle substitutions
-This refers to the number of alerts open on a given day for a given rapid transit line that result in shuttle subsitutions for trains.
+This refers to the number of alerts open on a given day for a given rapid transit line that result in shuttle substitutions for trains.
