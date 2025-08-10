@@ -21,3 +21,12 @@ The row this date appears in contains data pertaining to that date.
 
 ### num_alerts: Number of Service Alerts Active
 This refers to the number of open service alerts for the specified line and date. This includes delays, service changes, cancellations, and more. This will include alerts that may have been issued on another date but are still active on the specified date.
+
+### has_special_event: Whether that line experienced service alerts caused by special events
+This is true when there are alerts present that are caused by special events.
+
+### alert_effect_delay: The number of alerts resulting in a delay
+This refers to the number of alerts open on a given day for a given rapid transit line that result in delays.
+
+### alert_effect_shuttle: The number of alerts resulting in shuttle substitutions
+This refers to the number of alerts open on a given day for a given rapid transit line that result in shuttle substitutions for trains.
