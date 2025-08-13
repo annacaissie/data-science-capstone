@@ -30,3 +30,23 @@ This refers to the number of alerts open on a given day for a given rapid transi
 
 ### alert_effect_shuttle: The number of alerts resulting in shuttle substitutions
 This refers to the number of alerts open on a given day for a given rapid transit line that result in shuttle substitutions for trains.
+
+## Derived Variables
+
+### weekend_flag: Weekend Flag
+This column denotes whether or not this entry took place on a weekend.
+
+### infrastructure_stress_pc1/infrastructure_stress_pc2
+Created by performing PCA on all slow zones variables.
+
+### inconvenience_pc1/inconvenience_pc2
+Created by performing PCA on alert data, icluding total number as well as delays and shuttles.
+
+### reliability_x_slow_zones
+Interaction term between on-time performance scores and slow zones.
+
+### slow_zones_x_line
+Interaction term between the rapid transit line and slow zones. Replace 'line' with 'red', 'blue', 'green', or 'orange'.
+
+### service_quality_cluster_x
+Created by performing K-means clustering using various service quality variables. Different days are assigned a cluster ID between 0 and 2.
