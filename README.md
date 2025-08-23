@@ -31,3 +31,38 @@ Datasets included are:
 4. [MBTA Bus, Commuter Rail, & Rapid Transit Reliability](https://mbta-massdot.opendata.arcgis.com/datasets/b3a24561c2104422a78b593e92b566d5_0/explore)
 
 #### Thank you for riding the T!
+
+# Guide
+
+## What you need
+Python 3.10
+Jupyter Notebook
+
+Please have installed:
+sklearn
+seaborn
+matplotlib
+pandas
+numpy
+scipy
+statsmodels
+
+It will be helpful to have at least 8GB RAM.
+
+## Running code
+All code is contained in Jupyter Notebook files in the jupyter_notebook_files directory.
+Clone the repository and start Jupyter Notebook.
+Files do not need to be run in any particular order since inputs are stored in this repository. 
+
+However, we recommend the following order:
+
+1. exploratory_data_analysis.ipynb
+This file contains the reading in and aggregation/merging of raw data.
+2. preprocessing_feature_engineering.ipynb
+This file contains feature engineering and pre-processing steps.
+3. linear_regression.ipynb
+This is a simple linear regression model to serve as a baseline. 
+4. lasso_regression.ipynb
+This is a lasso regression model where we tune for the best alpha. It should run relatively quickly.
+5. random_forest.ipynb
+Please allow several minutes for the fit() function to run. We are tuning several parameters, and this can be somewhat resource-intensive.
