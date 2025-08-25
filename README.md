@@ -8,21 +8,21 @@ Many Boston-area commuters and residents start and end their days riding with th
 
 ## Question
 
-How have delays and track speed restrictions impacted the reliability and ridership of MBTA service in recent years, and does available data show that improvements (or lack thereof) in service quality are reflected in ridership levels?
+What factors best predict MBTA ridership, and how strongly do service disruptions like slow zones and alerts contribute compared to other predictors? 
 
 ## Hypothesis & Predictions
 
 ### Hypothesis
 
-Service disruptions like delays and track speed restrictions significantly reduce reliability scores and negatively impact ridership.
+Service disruptions like delays and track speed restrictions line up with significantly reduced reliability scores and ridership.
 
 ### Predictions
 
-We expect to find a measurable correlation between increased delays/speed restrictions and drops in reliability scores and lower ridership.
+We expect that disruptions will emerge as significant predictors of ridership, even when accounting for other temporal and operational factors.
 
 ### Data source
 
-Data is sources from the MBTA Blue Book Open Data Portal, found here: https://mbta-massdot.opendata.arcgis.com
+Data is sourced from the MBTA Blue Book Open Data Portal, found here: https://mbta-massdot.opendata.arcgis.com
 
 Datasets included are:
 1. [MBTA Gated Station Entries](https://mbta-massdot.opendata.arcgis.com/datasets/001c177f07594e7c99f193dde32284c9_0/explore)
