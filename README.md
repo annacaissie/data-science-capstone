@@ -4,7 +4,7 @@
 
 ## Brief background
 
-Many Boston-area commuters and residents start and end their days riding with the MBTA. Slow zones, delays, and reliability issues affect the day-to-day life of riders. We aim to explore how these issues have evolved post-COVID and their impact on ridership and public sentiment. 
+Many Boston-area commuters and residents start and end their days riding with the MBTA. Slow zones, delays, and reliability issues affect the day-to-day life of riders. We aim to explore how these issues have evolved post-COVID and their association with ridership. 
 
 ## Question
 
